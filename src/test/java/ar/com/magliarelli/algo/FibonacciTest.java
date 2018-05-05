@@ -21,6 +21,7 @@ public class FibonacciTest {
 			int actual = Fibonacci.fibonacci(i);
 			Assert.assertEquals(actual, Fibonacci.iterativeFibonacci(i));
 			Assert.assertEquals(actual, Fibonacci.naiveIterativeFibonacci(i));
+			Assert.assertEquals(actual, Fibonacci.iterativeGGFibonacci(i));
 		}
 	}
 }
